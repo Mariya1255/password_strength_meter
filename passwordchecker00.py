@@ -9,12 +9,12 @@ import streamlit as st
 st.set_page_config(page_title="Password Strength Checker By mariya Khan", page_icon="🌘", layout="centered")
 #custom css
 st.markdown("""
-<style>
+    <style>
     .main {text-align: center;}
     .stTextInput {width: 60% !important; margin:}
-    .stButton button {width: 50%; background-color #4CAF50; color: white; font-size: 18px;}
-    .stButton button:hover {background-color: #45a049;}
-</style>
+    .stButton button {width: 50%; background-color blue; color: white; font-size: 18px;}
+    .stButton button:hover {background-color: red; color: white;}
+    </style>
 """, unsafe_allow_html=True)
 
 #page title and decription
