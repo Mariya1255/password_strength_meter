@@ -19,7 +19,7 @@ st.markdown("""
 
 #page title and decription
 st.title("🔐 Pasword Strength Generator")
-st.weite("Enter your password below to check its security level. 🔍")
+st.write("Enter your password below to check its security level. 🔍")
 
 #function to check password strength
 def check_password_strength(password):
